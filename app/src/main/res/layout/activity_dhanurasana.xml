@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"><![CDATA[
+
+
+    @color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/dhanurasana"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Dhanurasana - Bow pose"
+        android:textColor="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/dhanurtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dhanurview" />
+
+    <ImageView
+        android:id="@+id/dhanurview"
+        android:layout_width="357dp"
+        android:layout_height="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/dhanur" />
+
+    <TextView
+        android:id="@+id/dhanurtext"
+        android:layout_width="370dp"
+        android:layout_height="192dp"
+        android:fontFamily="serif"
+        android:text="The Bow works all parts of your back simultaneously, increasing suppleness in the spine and hips. In this asana, our head, chest, and legs are lifted, while our body rests on our abdomen.Our body is bent back like a bow and our arms are held straight and taut like a bowstring. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <ImageButton
+        android:id="@+id/sirbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/dhanurview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1"
+        android:foreground="@drawable/sirasanacropped"/>
+
+    <ImageButton
+        android:id="@+id/halbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="29dp"
+        android:foreground="@drawable/halasnacropped"
+        app:layout_constraintBottom_toTopOf="@+id/dhanurview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sirbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+    <ImageButton
+        android:id="@+id/bhujangbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="29dp"
+        android:foreground="@drawable/cobracropped"
+        app:layout_constraintBottom_toTopOf="@+id/dhanurview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/halbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+    <ImageButton
+        android:id="@+id/dhanurbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="29dp"
+        android:foreground="@drawable/dhanurcropped"
+        app:layout_constraintBottom_toTopOf="@+id/dhanurview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bhujangbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

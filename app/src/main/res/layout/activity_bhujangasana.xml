@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/bhujangasaa"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Bhujangasana - Cobra Pose"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <ImageView
+        android:id="@+id/bhujangview"
+        android:layout_width="357dp"
+        android:layout_height="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/cobra" />
+
+    <TextView
+        android:id="@+id/cobratext"
+        android:layout_width="370dp"
+        android:layout_height="192dp"
+        android:fontFamily="serif"
+        android:text="It stretches the back of the body completely which invigorates the entire spine. It also loosens tight hamstrings. It is said that he/she who practices Halasana is very nimble, agile, and full of energy. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <ImageButton
+        android:id="@+id/sirbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/bhujangview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1"
+        android:foreground="@drawable/sirasanacropped"/>
+
+    <ImageButton
+        android:id="@+id/halbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="32dp"
+        android:foreground="@drawable/halasnacropped"
+        app:layout_constraintBottom_toTopOf="@+id/bhujangview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sirbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+    <ImageButton
+        android:id="@+id/bhujangbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="32dp"
+        android:foreground="@drawable/cobracropped"
+        app:layout_constraintBottom_toTopOf="@+id/bhujangview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/halbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+    <ImageButton
+        android:id="@+id/dhanurbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="32dp"
+        android:foreground="@drawable/dhanurcropped"
+        app:layout_constraintBottom_toTopOf="@+id/bhujangview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bhujangbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

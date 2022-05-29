@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/sirasana"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Sirasana - Headstand Pose"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <ImageView
+        android:id="@+id/sirview"
+        android:layout_width="357dp"
+        android:layout_height="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/sirasana" />
+
+    <TextView
+        android:id="@+id/headtext"
+        android:layout_width="370dp"
+        android:layout_height="192dp"
+        android:fontFamily="serif"
+        android:text="Headstand is also known as the 'king of asanas' because this yoga pose is considered to be a master in curing many diseases. Headstand is one of the most effective asanas for body and mind. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <ImageButton
+        android:id="@+id/sirbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="37dp"
+        android:foreground="@drawable/sirasanacropped"
+        app:layout_constraintBottom_toTopOf="@+id/sirview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+    <ImageButton
+        android:id="@+id/halbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/sirview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/sirbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1"
+        android:foreground="@drawable/halasnacropped"/>
+
+    <ImageButton
+        android:id="@+id/bhujangbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/sirview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/halbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1"
+        android:foreground="@drawable/cobracropped"/>
+
+    <ImageButton
+        android:id="@+id/dhanurbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="37dp"
+        android:foreground="@drawable/dhanurcropped"
+        app:layout_constraintBottom_toTopOf="@+id/sirview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/bhujangbutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/round1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
