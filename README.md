@@ -1,6 +1,17 @@
 # MyFitness
-Application describing four yoga asanas.
 (Minimum Requirement : Android 11)
+
+This application gives the description of four yoga asanas namely -
+1. Sirasana 
+2. Halasana
+3. Bhujangasana
+4. Dhanurasana
+
+Each asana has its button which upon clicking displays the image and description of the asanas.
+Each asana has its own activity file which are linked together using the buttons at the top.
+
+
+
 
 
 
