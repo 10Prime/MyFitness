@@ -1,5 +1,6 @@
 # MyFitness
 Application describing four yoga asanas.
+(Minimum Requirement : Android 11)
 
 
 
